@@ -1,0 +1,14 @@
+{
+    "moire": {
+        "context_name": "Moire Generator",
+        "menu_name": {
+            "appmenu.moire": {
+                "en": "Moire Generator",
+                "en-tts": "Moire Generator",
+                "fr": "Moire Generator",
+                "ja": "Moire Generator",
+                "zh": "Moire Generator"
+            }
+        }
+    }
+}
