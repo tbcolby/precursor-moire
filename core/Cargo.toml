@@ -1,0 +1,14 @@
+[package]
+name = "moire-core"
+version = "0.2.0"
+authors = ["Tyler Colby"]
+edition = "2021"
+description = "Pure logic for Moire Generator: line, circle, radial and grid layers XORed into a bitmap, rectangle extraction, menu state machine. No Xous dependencies."
+license = "Apache-2.0"
+
+# Keep this crate free of xous/gam/pddb so `cargo test` runs on any machine.
+[dependencies]
+precursor-appkit-core = { git = "https://github.com/tbcolby/xous-dev-toolkit" }
+
+[dev-dependencies]
+precursor-appkit-core = { git = "https://github.com/tbcolby/xous-dev-toolkit", features = ["testing"] }
